@@ -1,0 +1,30 @@
+# Local credentials and environment
+.env
+.env.*
+!.env.example
+leitor_atestado_config.json
+# Student records, medical documents, and synchronization data
+atestados_salvos/
+student_sync_backups/
+student_sync_state.json
+*.csv
+*.xlsx
+*.xls
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.log
+sca_justificativa_faltas.html
+sca_justificativa_faltas.txt
+7C29D000
+# Python and local tools
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.agents/
+.codex/
+.aws/
+.kilo/
+.kilocode/
